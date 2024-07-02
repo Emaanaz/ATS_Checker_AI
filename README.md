@@ -2,7 +2,7 @@
 
 Gemini Chatbot is an interactive chatbot built using Streamlit and Google's **Gemini-Pro** AI model. It allows users to converse with an AI assistant powered by Gemini-Pro to get responses to their queries.
 
-#### ATS Checker AI
+# ATS Checker AI
 
 #######Features
 
