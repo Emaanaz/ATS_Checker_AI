@@ -1,4 +1,4 @@
-# GeminiPro ChatBot [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://geminipro-chatbot.streamlit.app/)
+#  ATS Checker AI (Gemini-Pro AI) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://geminipro-chatbot.streamlit.app/)
 
 Gemini Chatbot is an interactive chatbot built using Streamlit and Google's **Gemini-Pro** AI model. It allows users to converse with an AI assistant powered by Gemini-Pro to get responses to their queries.
 
@@ -20,29 +20,24 @@ Gemini Chatbot is an interactive chatbot built using Streamlit and Google's **Ge
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/hardikjp7/GeminiPro-ChatBot.git
+    Its their in Code just copy the link or open with github desktop
    ```
 
-2. **Navigate to Project Directory:**
+2. **Install Dependencies:**
    ```bash
-   cd GeminiPro-ChatBot
+   pip install
+   pip install python-dotenv
+   pip install google-generativeai
+   pip install streamlit
+
    ```
 
-3. **Install Dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set Up Google API Key:**
-   - Obtain a Google API Key from [Google Makersuite](https://makersuite.google.com/app/apikey) and securely save it.
-   - Enter the Google API Key in the Streamlit app's sidebar configuration section.
-
-5. **Run the Streamlit App:**
+3. **Run the Streamlit App:**
    ```bash
    streamlit run app.py
    ```
 
-6. **Open the Web Browser:**
+3. **Open the Web Browser:**
    Once the Streamlit app is running, open your web browser and go to `http://localhost:8501` to access the Gemini-Pro Chatbot.
 
 
