@@ -56,8 +56,8 @@ I want the response in one single string having the structure
 """
 ##(https://www.linkedin.com/in/hardikjp/)
 ## Streamlit app
-st.title("Resume Matcher ATS")
-st.markdown("Made by 😎 [Aman Sande]")
+st.title("Resume ATS Checker AI")
+st.markdown("Made by 🤖 [Aman Sande]")
 jd = st.text_area("Paste the Job Description")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the PDF")
 
