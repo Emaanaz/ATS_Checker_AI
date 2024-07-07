@@ -1,17 +1,17 @@
 #  ATS Checker AI (Gemini-Pro AI) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)])
 
-Gemini Chatbot is an interactive chatbot built using Streamlit and Google's **Gemini-Pro** AI model. It allows users to converse with an AI assistant powered by Gemini-Pro to get responses to their queries.
+Medical Ai Bot is an interactive Adviser bot built using Streamlit and Google's **Gemini-Pro** AI model. It allows users to converse with an AI assistant powered by Gemini-Pro to get responses to their queries.
 
 # ATS Checker AI
 
-#[![Streamlit App](https://www.freepik.com/free-vector/hospital-logo-design-vector-medical-cross_18246203.htm#fromView=image_search_similar&page=1&position=2&uuid=51ac5d4d-bcdf-4f28-8bed-bb06f13c243b)https://ats-checker-ai.streamlit.app/])
+https://ats-checker-ai.streamlit.app/])
 
 ##Features
 
 - Allows users to interact with an AI assistant powered by Google's Gemini-Pro AI model.
 - Displays chat history, including both user and chatbot messages.
-- Provides a responsive and intuitive chat interface for smooth communication.
-- Configurable sidebar for entering the Google API Key for Gemini-Pro configuration.
+- Provides a responsive and intuitive imformation interface for smooth communication.
+
 
 
 #### Image
