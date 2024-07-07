@@ -80,5 +80,5 @@ if submit:
         parsed_response = json.loads(response)
         for key, value in parsed_response.items():
             st.write(f"**{key}:** {value}")
-st.markdown("Made by 🤖 [Aman Sande]")
+
 
