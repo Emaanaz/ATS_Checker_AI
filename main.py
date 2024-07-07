@@ -1,23 +1,31 @@
 
+
+
+#########################
+
+
 import streamlit as st
 import google.generativeai as genai
+
+from api_key import api_key
+# Load environment variables
+
+
+genai.configure(api_key=api_key)
 import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
 import json
-
 
 # Load environment variables
 load_dotenv()
 
 # Configure Streamlit page settings
 st.set_page_config(
-    page_title="Smart ATS",
-    page_icon="",
+    page_title="AI-ATS",
+    page_icon="robot",
     layout="centered",
 )
-
-
 
 # Function to configure Gemini AI model with the provided API key
 def configure_gemini_api(api_key):
@@ -55,10 +63,10 @@ description:{jd}
 I want the response in one single string having the structure
 {{"JD Match":"%","MissingKeywords":[],"Profile Summary":""}}
 """
-##(https://www.linkedin.com/in/hardikjp/)
-## Streamlit app
-st.title("Resume ATS Checker AI")
-st.markdown("Made by 🤖 [Aman Sande]")
+
+## app
+st.title("Resume Matcher ATS")
+st.subheader("Made by 🤖 [Aman Sande]")
 jd = st.text_area("Paste the Job Description")
 uploaded_file = st.file_uploader("Upload Your Resume", type="pdf", help="Please upload the PDF")
 
@@ -72,3 +80,5 @@ if submit:
         parsed_response = json.loads(response)
         for key, value in parsed_response.items():
             st.write(f"**{key}:** {value}")
+st.markdown("Made by 🤖 [Aman Sande]")
+
