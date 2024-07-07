@@ -22,7 +22,7 @@ Features
 
 1. **Clone the Repository:**
    ```bash
-    Its their in Code just copy the link or open with github desktop
+    git clone https://github.com/Amaansande/ATS_Checker_AI.git
    ```
 
 2. **Install Dependencies:**
